@@ -1,6 +1,6 @@
-# 🛍️ E-Commerce Landing Page
+# 🛍️ E-Commerce Project
 
-A simple and modern **E-Commerce landing page** built using **HTML** and **CSS only**.  
+A simple and modern **E-Commerce Project** built using **HTML** and **CSS only**.  
 This project focuses on creating a clean layout, stylish UI, and fully responsive design — without any JavaScript.
 
 ---
