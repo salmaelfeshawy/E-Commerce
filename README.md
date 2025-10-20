@@ -21,4 +21,8 @@ This project focuses on creating a clean layout, stylish UI, and fully responsiv
 
 ---
 
-## 📂 Project Structure
+## 💡 How to Run
+1. Clone this repository  
+   ```bash
+   git clone https://github.com/salmaelfeshawy/E-Commerce.git
+
