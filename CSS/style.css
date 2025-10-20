@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Lato";
+}
+
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 120px;
+    align-items: center;
+    padding: 20px 0;
+    background-color: white;
+    color: white;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+
+}
+
+.navbar .menu a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.navbar .menu ul a:hover,
+.navbar .menu ul a.active {
+    color: blue;
+}
+
+.navbar .logo img {
+    width: 120px;
+}
+
+.navbar .cart {
+    display: flex;
+    justify-content: space-between;
+    width: 60px;
+}
+
+.navbar .cart a {
+    color: rgba(0, 0, 0, 0.493);
+}
+
+.navbar .cart a:hover {
+    color: black;
+}
+
+.navbar .buy-now-button {
+    color: black;
+    background-color: transparent;
+    padding: 8px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+    border: 2px solid rgba(128, 128, 128, 0.222);
+    width: 80px;
+    text-align: center;
+}
+
+.navbar .buy-now-button:hover {
+    color: white;
+    background-color: rgba(90, 90, 233, 0.429);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    position: relative;
+    padding: 90px 100px 0 100px;
+    height: 80vh;
+    overflow: hidden;
+    background-color: rgba(238, 235, 232, 0.662);
+    margin-bottom: 10px;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 35%;
+    height: 100%;
+    background-color: #3b5eff;
+    z-index: 0;
+}
+
+.hero-image img {
+    position: relative;
+    z-index: 1;
+    width: 400px;
+}
+
+.hero-content {
+    position: relative;
+    z-index: 1;
+    max-width: 500px;
+}
+
+.hero-content .tagline {
+    color: #555;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.hero-content h1 {
+    font-size: 32px;
+    color: #111;
+    font-weight: 800;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+
+.hero-content .desc {
+    color: #777;
+    margin: 40px 0;
+}
+
+.hero-content .browse-button {
+    display: inline-block;
+    background-color: #3b5eff;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.hero-content .browse-button:hover {
+    background-color: #2b48c7;
+}
+
+.hero-items {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.hero-items img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+}
